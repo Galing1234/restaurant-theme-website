@@ -1,0 +1,133 @@
+.main {
+  display: flex ;
+  flex-direction: column ;
+  padding-top: 60px ;
+  z-index: 10 ;
+}
+
+.main-section {
+  display: flex ;
+  padding: 5px ;
+  height: 300px ;
+  margin-right: 10px ;
+  padding-bottom: 20px ;
+  align-items: center ;
+  text-align: center ;
+  justify-content: center ;
+  border: 2px solid gray ;
+  border-bottom: none ;
+  background-size: cover ;
+  opacity: 0.7 ;
+}
+
+.main-section-1 {
+  background-image: url('../../../Sarah/assets/meal-image.png') ;
+}
+
+.main-section-2,
+.main-section-3,
+.main-section-4,
+.main-section-5 {
+  flex-direction: column ;
+  border-top: none ;
+}
+
+.main-section-2 {
+  background-image: url('../../../Sarah/assets/geo-location.png') ;
+}
+
+.main-section-3 {
+  background-image: url('../../../Sarah/assets/special-foods.png') ;
+}
+
+.main-section-4 {
+  background-image: url('../../../Sarah/assets/order.png') ;
+}
+
+.main-section-5 {
+  background-image: url('../../../Sarah/assets/contact.png') ;
+}
+
+.menu-view-button,
+.location-info-button,
+.daily-specials-info-button
+.order-info-button,
+.contact-info-button {
+  transition: opacity 0.15s ;
+}
+
+.menu-view-button:hover,
+.location-info-button:hover,
+.daily-specials-info-button:hover,
+.order-info-button:hover,
+.contact-info-button:hover {
+  opacity: 1 ;
+}
+
+.locations-div,
+.daily-specials-div,
+.order-div,
+.contact-div {
+  font-size: 40px ;
+  width: 100% ;
+  padding-bottom: 5px ;
+  border-bottom: 3px solid rgb(145, 130, 46) ;
+}
+
+.location-info-div,
+.daily-specials-info-div,
+.order-info-div,
+.contact-info-div {
+  font-size: 20px ;
+  color: rgb(138, 73, 73) ;
+  font-weight: 600 ;
+}
+
+.location-info-button,
+.daily-specials-info-button,
+.order-info-button,
+.contact-info-button {
+  background-color: rgb(145, 130, 46) ;
+  border: none ;
+  margin-top: 10px ;
+  color: white ;
+  border-radius: 5px ;
+  padding: 10px ;
+  cursor: pointer ;
+  opacity: 0.9 ;
+}
+
+.menu-div {
+  color: white ;
+  margin-top: -70px ;
+  font-size: 40px ;
+  flex: 1 ;
+  padding-bottom: 5px ;
+  border-bottom: 3px solid rgb(145, 130, 46) ;
+}
+
+.menu-view-button {
+  position: absolute ;
+  margin-top: 30px ;
+  background-color: rgb(145, 130, 46) ;
+  border: none ;
+  color: white ;
+  border-radius: 5px ;
+  padding: 10px ;
+  cursor: pointer ;
+  opacity: 0.9 ;
+}
+
+.daily-specials-div {
+  color: rgb(0, 255, 0) ;
+  font-weight: 600 ;
+}
+
+.daily-specials-info-div,
+.order-div {
+  color: white ;
+}
+
+.order-info-div {
+  color: cyan ;
+}

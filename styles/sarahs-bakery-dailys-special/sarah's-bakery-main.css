@@ -1,0 +1,21 @@
+.main {
+  margin-top: 80px ;
+  height: 500px ;
+  margin-left: 10px ;
+  margin-right: 10px ;
+  z-index: 10 ;
+  background-color: white ;
+  white-space: nowrap ;
+}
+
+.todays-daily-special,
+.todays-daily-special-name {
+  font-size: 24px ;
+  font-weight: bold ;
+}
+
+.daily-special {
+  height: calc(100% - 65px) ;
+  width: 100% ;
+  border: 2px solid gray ;
+}
