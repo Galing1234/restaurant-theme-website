@@ -21,7 +21,7 @@
 }
 
 .main-section-1 {
-  background-image: url('../../../Sarah/assets/meal-image.png') ;
+  background-image: url('../../assets/meal-image.png') ;
 }
 
 .main-section-2,
@@ -33,19 +33,19 @@
 }
 
 .main-section-2 {
-  background-image: url('../../../Sarah/assets/geo-location.png') ;
+  background-image: url('../../assets/geo-location.png') ;
 }
 
 .main-section-3 {
-  background-image: url('../../../Sarah/assets/special-foods.png') ;
+  background-image: url('../../assets/special-foods.png') ;
 }
 
 .main-section-4 {
-  background-image: url('../../../Sarah/assets/order.png') ;
+  background-image: url('../../assets/order.png') ;
 }
 
 .main-section-5 {
-  background-image: url('../../../Sarah/assets/contact.png') ;
+  background-image: url('../../assets/contact.png') ;
 }
 
 .menu-view-button,
